@@ -1,7 +1,8 @@
 <template>
-    <div class="app">
-        <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-    </div>
+    <HelloWorld
+        msg="Hi! I'm simple Vue-Typescript-SCSS starter."
+        :initialEnthusiasm="1"
+    />
 </template>
 
 <script lang="ts">
@@ -17,12 +18,13 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-.app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+@use './styles/variables/colors';
+@use './styles/variables/typography';
+
+body {
+    font-family: typography.$font-family, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+    color: colors.$text;
 }
 </style>

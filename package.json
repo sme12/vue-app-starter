@@ -1,11 +1,11 @@
 {
-    "name": "vue-app-scaffold",
+    "name": "vue-app-starter",
     "version": "1.0.0",
-    "description": "Vue App",
+    "description": "Simple Vue app starter",
     "keywords": [],
     "homepage": "",
     "author": {
-        "name": ""
+        "name": "Vitalii Sazanov"
     },
     "main": "index.html",
     "repository": {

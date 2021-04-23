@@ -1,6 +1,9 @@
-# The Vue App
+# The Vue App Starter
 
-Kek
+Simple Vue app starter with Vue 2, Typescript, SCSS and Webpack 5.
+Stylelint, Eslint, Prettier included.
+
+Initial content is inspired by [Vue CLI](https://github.com/vuejs/vue-cli) and [TypeScript Vue Starter](https://github.com/microsoft/TypeScript-Vue-Starter).
 
 ## Build and Test
 
