@@ -7,7 +7,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const EslintPlugin = require('eslint-webpack-plugin');
-const StylelintPlugin = require('stylelint-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 const { srcDir, destDir, publicDir } = require('./paths');
@@ -75,11 +74,6 @@ module.exports = {
         new EslintPlugin({
             context: srcDir,
             extensions: 'ts',
-            emitError: false,
-        }),
-
-        new StylelintPlugin({
-            context: srcDir,
             emitError: false,
         }),
 
